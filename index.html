@@ -4,23 +4,28 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    
     <title>Inicio</title>
   </head>
   <body>
-    <div class="container">
-      <div class="swiper">
+    <div class="container sl">
+      <div class="swiper sl__cambio">
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide slide-1"><h2>Nexo Residences</h2></div>
-          <div class="swiper-slide slide-2"><h2>Nexo Residences</h2></div>
-          <div class="swiper-slide slide-3"><h2>Nexo Residences</h2></div>
+          <div class="swiper-slide sl-slide slide-1">
+            <h2 class="sl__h2">Nexo Residences</h2>
+          </div>
+          <div class="swiper-slide sl-slide slide-2">
+            <h2 class="sl__h2">Nexo Residences</h2>
+          </div>
+          <div class="swiper-slide sl-slide slide-3">
+            <h2 class="sl__h2">Nexo Residences</h2>
+          </div>
           ...
         </div>
         <!-- If we need pagination -->
@@ -36,34 +41,6 @@
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script>
-      const swiper = new Swiper(".swiper", {
-        // Optional parameters
-        direction: "horizontal",
-        loop: true,
-        autoplay: {
-          delay: 3000,
-          disableOnInteraction: false,
-        },
-        // If we need pagination
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-
-        // Navigation arrows
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-
-        // And if we need scrollbar
-        scrollbar: {
-          el: ".swiper-scrollbar",
-        },
-      });
-    </script>
-
     <script src="codigo.js"></script>
   </body>
 </html>
