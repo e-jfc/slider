@@ -34,7 +34,8 @@ h2 {
   height: 80vh;
 }
 .slide-1 {
-  background: url(https://www.colinarealtor.com/images/multiporpuse/porpuse-2164-245437-2.jpg?mtime=1668040259) rgba(0, 0, 0, 0.3);
+  background: url(https://www.colinarealtor.com/images/multiporpuse/porpuse-2164-456808-2.jpg?mtime=1668040303)
+    rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,7 +43,8 @@ h2 {
   width: 100%;
 }
 .slide-2 {
-  background: url(https://www.colinarealtor.com/images/multiporpuse/porpuse-2164-245437-3.jpg?mtime=1668040259) rgba(0, 0, 0, 0.3);
+  background: url(https://www.colinarealtor.com/images/multiporpuse/porpuse-2164-456808-3.jpg?mtime=1668040303)
+    rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
@@ -50,7 +52,8 @@ h2 {
   width: 100%;
 }
 .slide-3 {
-  background: url(https://www.colinarealtor.com/images/multiporpuse/porpuse-2164-245437-4.jpg?mtime=1668040259) rgba(0, 0, 0, 0.3);
+  background: url(https://www.colinarealtor.com/images/multiporpuse/porpuse-2164-456808-4.jpg?mtime=1668040303)
+    rgba(0, 0, 0, 0.3);
   background-blend-mode: multiply;
   background-size: cover;
   background-repeat: no-repeat;
